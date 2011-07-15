@@ -23,6 +23,10 @@ handlers:
   static_files: apple-touch-icon.png
   upload: apple-touch-icon.png
 
+- url: /tlvince.asc
+  static_files: tlvince.asc
+  upload: tlvince.asc
+
 - url: /.*
   static_files: index.html
   upload: index.html
