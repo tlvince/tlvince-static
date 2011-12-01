@@ -163,17 +163,19 @@ nav li {
     padding-left: 0.8125em;
 }
 
-#mugshot { 
-    float: right;
+
+img {
+    padding: 0.5em;
     border: 1px solid #EEE8D5;
     background-color: white;
-    margin: 0.8125em 0.8125em 0;
+}
+
+#mugshot { 
+    float: right;
+    margin: 0.8125em 0 0 0.8125em;
     line-height: 0;
 }
 
-#mugshot img { margin: 0.5em; }
-
-img { margin: 0.8125em; }
 
 #abstract {
     list-style: none;
