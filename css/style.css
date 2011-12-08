@@ -117,15 +117,13 @@ pre, code, kbd, samp {
 
 /* XXX: needs organising {{{2 */
 
-p {
-         text-align: justify;
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-            hyphens: auto;
-}
 p, ol, ul {
-    padding: 0 0 0.8125em 0;
+        padding: 0 0 0.8125em 0;
     line-height: 1.625em;
+     text-align: justify;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
 }
 
 blockquote { 
