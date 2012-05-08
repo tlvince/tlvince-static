@@ -1,8 +1,9 @@
+# Makefile for building tlvince.com assets.
+# Copyright 2012 Tom Vincent <http://tlvince.com/contact/>
+
 all:
-	rm css/main-min.css
-	cat css/* > css/tmp.css
-	yuicompressor -o css/main-min.css css/tmp.css
-	rm css/tmp.css
+	mkdir -p css
+	stylus --out css --compress stylus/style.styl
 
 deploy:
 	appcfg.py update .
