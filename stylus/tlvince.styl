@@ -1,3 +1,11 @@
+/**
+ * tlvince.com main styles.
+ * Copyright 2011-2012 Tom Vincent <http://tlvince.com/contact/>
+ */
+
+html
+    overflow-y: scroll
+
 body
   margin: 0 auto
   width: 35em
@@ -11,6 +19,7 @@ body, select, input, textarea
 h1, h2, h3, h4, h5, h6
   font-family: serif
   font-weight: normal
+  margin: 0
 
 h1
   font-size: 2em
@@ -33,7 +42,6 @@ h5, h6
   margin-bottom: 1.238em
 
 a, a:active
-  color: #B58900
   text-decoration: none
 
 a:hover
@@ -53,15 +61,20 @@ pre, code, kbd, samp
 
 p, ol, ul
   padding: 0 0 0.8125em 0
+  margin: 0
   line-height: 1.625em
   text-align: justify
   -webkit-hyphens: auto
   -moz-hyphens: auto
   hyphens: auto
 
+ul, ol
+  margin-left: 2em  
+
 blockquote
   padding: 1.625em 1em
   font-style: italic
+  margin: 0
 
 blockquote:before
   content: "\201C"
