@@ -1,0 +1,4 @@
+# tlvince-static
+
+Static assets for [tlvince.com](http://tlvince.com). These are hosted on [Google
+App Engine](https://tlvince.appspot.com) for CDN-like capabilities.
